@@ -1,15 +1,15 @@
 // Reverse the string
 
-    function revStr(str){
-        if(str.length <= 1){
-            return str;
-        }
-        else {
-            return str.charAt(str.length - 1) + revStr(str.substring(0, str.length - 1));
-        }
-    }
-    const revstr = revStr('12345')
-    console.log(revstr);
+function revStr(str) {
+  if (str.length <= 1) {
+    return str;
+  }
+  else {
+    return str.charAt(str.length - 1) + revStr(str.substring(0, str.length - 1));
+  }
+}
+const revstr = revStr('12345')
+console.log(revstr);
 
 //-------------------------------------end-------------------------------------------------
 
@@ -43,10 +43,10 @@
 
 // Rotate the matrix
 
-    // const myMatrix = [ 
+    // const myMatrix = [
     //         [1,2,3],
     //         [4,5,6],
-    //         [7,8,9] 
+    //         [7,8,9]
     //                 ];
     // console.log(myMatrix[0])
     // console.log(myMatrix[1])
