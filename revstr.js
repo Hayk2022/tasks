@@ -8,3 +8,4 @@ function revStr(str) {
   }
   const revstr = revStr('12345')
   console.log(revstr);
+  

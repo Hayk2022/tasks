@@ -1,9 +1,6 @@
-let root1, root2;
-    let a = 5;
-    let b = 4;
-    let c = 4;
+function quadratic(a, b, c){
+    let root1, root2;
     let disc = b * b - 4 * a * c;
-
     if (disc > 0) {
         root1 = (-b + Math.sqrt(disc)) / (2 * a);
         root2 = (-b - Math.sqrt(disc)) / (2 * a);
@@ -18,3 +15,5 @@ let root1, root2;
       `Roots are ${real} + ${imagine}i and ${real} - ${imagine}i`
       );
     }
+}
+quadratic(5, 4, 4);
